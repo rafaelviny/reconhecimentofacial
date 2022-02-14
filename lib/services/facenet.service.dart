@@ -25,7 +25,7 @@ class FaceNetService {
   dynamic data = {};
 
   Future loadModel() async {
-    late Delegate delegate;
+    Delegate? delegate;
     try {
       if (Platform.isAndroid) {
         delegate = GpuDelegateV2(
@@ -44,7 +44,7 @@ class FaceNetService {
               waitType: TFLGpuDelegateWaitType.active),
         );
       }
-      var interpreterOptions = InterpreterOptions()..addDelegate(delegate);
+      var interpreterOptions = InterpreterOptions()..addDelegate(delegate!);
 
       _interpreter = await Interpreter.fromAsset('mobilefacenet.tflite',
           options: interpreterOptions);

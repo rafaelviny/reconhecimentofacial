@@ -1,8 +1,6 @@
-import 'dart:async';
 import 'dart:io';
 import 'dart:math' as math;
 
-import 'package:app/components/face_recognition/face_painter.dart';
 import 'package:app/modules/funcionario/pages/funcionario/funcionario_controller.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
