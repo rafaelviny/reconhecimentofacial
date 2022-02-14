@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431972887077",
+    "project_id": "point-ec941",
+    "storage_bucket": "point-ec941.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431972887077:android:06a33b0d2545d61fdeedcc",
+        "android_client_info": {
+          "package_name": "py.com.rafaeltoebe.app.point"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431972887077-rt13b55q8ing0k2ac3saeb6qjcu4auj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzlx5yE45QMRJf-_BCmFHUTJIwAV7N-JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431972887077-rt13b55q8ing0k2ac3saeb6qjcu4auj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
